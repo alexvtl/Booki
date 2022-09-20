@@ -573,7 +573,7 @@ footer ul li a:hover {
 }
 
 /* Media Queries tablettes */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     #title1 {
         font-size: 24px;
     }
@@ -716,7 +716,7 @@ footer ul li a:hover {
 }
 
 /* Media Queries smartphone */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     body {
         background-color: white;
