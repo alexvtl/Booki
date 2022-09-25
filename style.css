@@ -770,7 +770,7 @@ footer ul li a:hover {
         border-bottom: solid 5px #F2F2F2;
         text-align: center;
         padding-top: 10px;
-        width: 50%;
+        width: 100%;
         color: rgb(34, 34, 34);
         font-size: 22px;
 
@@ -786,7 +786,7 @@ footer ul li a:hover {
         border-bottom: solid 5px #F2F2F2;
         text-align: center;
         padding-top: 10px;
-        width: 50%;
+        width: 100%;
         color: black;
         font-size: 22px;
     }
@@ -1074,4 +1074,71 @@ footer ul li a:hover {
         flex-direction: column;
         height: auto;
     }
-}
+
+    @media screen and (max-width: 500px) {
+
+        #container_button {
+            height: auto;
+            max-width: 100%;
+        }
+        #nav_accommodation_link,#nav_activities_link{
+            font-size: 16px;
+            width: 100%;
+            padding: 10px 10px 40px;
+        }
+
+        #search_text {
+            min-width: 70%;
+            width: 100%;
+            
+        }
+        #search_logo {
+            width: 15%;
+        }
+    
+        #search_city {
+            width: auto;
+            height: 60px;
+        }
+    
+        #search_text_container {
+            padding: 0px 0px 0px 0px;
+            height: 60px;
+            width: 70%;
+        }
+    
+        #search_button_container i {
+            display: inline;
+            font-size: 20px;}
+            
+        #search_button_container{
+            width: 15%;
+        }
+
+        .mostPopular_pictures{
+            min-height: 100%;
+        }
+        .filter_items {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        ul i {
+            font-size: 18px;
+        }
+        .hotel-name{
+            font-size: 16px;
+        }
+
+        .description-hotels-most-popular{
+            padding: 20px 0px 10px 25px;
+        }
+
+        #section1{
+            margin: 0px 20px ;
+        }
+
+        input[type="text"]::placeholder {
+            font-size: 16px;
+        }
+    }
